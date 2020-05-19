@@ -1,13 +1,12 @@
 import React from "react";
 
 function App() {
-  let todo = ["surbhi", "rushabh"];
-  var newtodo = [];
+ 
   const [isCurrentText, setCurrentText] = React.useState([]);
   const [items, setItems] = React.useState([]);
 
   function handleText(event) {
-    const name = event.target.name;
+   // const name = event.target.name;
     const value = event.target.value;
     setCurrentText(value);
   }
